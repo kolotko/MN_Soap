@@ -1,0 +1,34 @@
+@MN_Soap_HostAddress = https://localhost:44327
+
+
+### SOAP 1.1 (zmienić namespace w modelu)
+
+#POST {{MN_Soap_HostAddress}}/Service1/
+#Content-Type: application/xml
+#
+#<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+#    <soap:Header/>
+#    <soap:Body>
+#        <Operation xmlns="http://example.com/namespace">
+#            <Parameter>TestValue</Parameter>
+#        </Operation>
+#    </soap:Body>
+#</soap:Envelope>
+
+### SOAP 1.2
+
+POST {{MN_Soap_HostAddress}}/Service1/
+Content-Type: application/xml
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+    <soap:Header/>
+    <soap:Body>
+        <Operation xmlns="http://example.com/namespace">
+            <Parameter>TestValue</Parameter>
+        </Operation>
+    </soap:Body>
+</soap:Envelope>
+
+###
+POST {{MN_Soap_HostAddress}}/Service1/
+Content-Type: application/xml
