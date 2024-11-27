@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MN_Cors", "MN_Cors\MN_Cors.csproj", "{96CAA8B5-0EC1-4A54-9D6E-ADD49CBDB15B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MN_RateLimiting", "MN_RateLimiting\MN_RateLimiting.csproj", "{B9EFDF26-9CF4-49CA-BFCF-859B5555822B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96CAA8B5-0EC1-4A54-9D6E-ADD49CBDB15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CAA8B5-0EC1-4A54-9D6E-ADD49CBDB15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CAA8B5-0EC1-4A54-9D6E-ADD49CBDB15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CAA8B5-0EC1-4A54-9D6E-ADD49CBDB15B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9EFDF26-9CF4-49CA-BFCF-859B5555822B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9EFDF26-9CF4-49CA-BFCF-859B5555822B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9EFDF26-9CF4-49CA-BFCF-859B5555822B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9EFDF26-9CF4-49CA-BFCF-859B5555822B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
